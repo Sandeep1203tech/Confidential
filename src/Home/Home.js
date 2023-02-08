@@ -1,6 +1,7 @@
 import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
+import './Home.css';
 // import Navbar from "./Navbar";
 // import { FiArrowRight } from "react-icons/fi";
 
@@ -13,13 +14,13 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Kehndi Hundi Si
+            Welcome
           </h1>
           <p className="primary-text">
-            Mujhe Khud nahi pata mai kya bana raha hoon but kuch toh banaunga he!
+            Delivering results, reliability, & rock solid dependability
           </p>
           <button className="secondary-button">
-            Loading... 
+            Dive In
           </button>
         </div>
         <div className="home-image-section">

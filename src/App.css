@@ -1,5 +1,3 @@
-
-
 img {
   max-width: 100%;
   height: auto;
@@ -8,14 +6,13 @@ img {
 .App {
   min-height: 100vh;
   width: 100%;
-  max-width: 1900px;
+  max-width: 100vw;
   margin: 0rem auto;
 }
 body {
   max-width: 90%;
   overflow-x: hidden;
   background-color: rgb(83, 2, 213);
-
 }
 
 .home-banner-container {
@@ -36,10 +33,10 @@ body {
 }
 .home-text-section {
   flex: 1;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:flex-start;
+  align-items: flex-start;
 }
 
 @media (max-width: 1000px) {
@@ -49,47 +46,41 @@ body {
 }
 
 @media (max-width: 800px) {
-  
   .home-bannerImage-container {
     max-width: 450px;
   }
 
-  .home-banner-container{
+  .home-banner-container {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
- 
-  .home-image-section
-   {
-    width: 100%;
-    max-width: 400px;
-  }
-}   
-      @media (max-width: 600px) {
-        .home-bannerImage-container
-        {
-          display: none;
-      }
-   }  
 
+  .home-image-section {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .home-bannerImage-container {
+    display: none;
+  }
+}
 
 /* new stuff */
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: white;
   /* line-height: 5rem; */
-  max-width: 600px;
+  max-width: 600px;
 }
-
 
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
   color: white;
-  margin: 1.5rem 0rem;
+  margin: 1.5rem 0rem;
 }
-
 
 .secondary-button {
   padding: 1rem 2.5rem;
@@ -111,6 +102,5 @@ body {
   font-size: 1.5rem;
 }
 .secondary-button:hover {
-  background-color: #e48f0f;
+  background-color: #e48f0f;
 }
-
