@@ -14,7 +14,7 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Welcome
+            Welcome <span className="BackBlink">Back</span>
           </h1>
           <p className="primary-text">
             Delivering results, reliability, & rock solid dependability

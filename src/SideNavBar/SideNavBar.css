@@ -12,6 +12,11 @@
   color: var(--light);
   transition: 0.4s;
   z-index: 99999;
+  /* border-right: 2px solid black; */
+  box-shadow : 0.5px 2px 8px var(--primary);
+
+
+  
 }
 .side-nav-container-NX {
   width: 85px;
