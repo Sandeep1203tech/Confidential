@@ -102,6 +102,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .secondary-button svg {
   margin-left: 0.75rem;
@@ -125,7 +126,7 @@ body {
   width: 100%;
 }
 
-.TagEEBlink{
+.Tag{
   animation: blink 1s linear infinite;
   color: aqua;
 }
@@ -145,6 +146,8 @@ body {
   flex: 0.9;
   margin-right: 1rem;
 }
+
+
 .about-section-text-container {
   flex: 1;
   justify-content: center;

@@ -3,7 +3,7 @@ import React from "react";
 import AboutBackgroundImage from "../Assets/about-background-image.png";
 // import { BsFillPlayCircleFill } from "react-icons/bs";
 
-const About = () => {
+const AboutCSE = () => {
   return (
     <div className="about-section-container">
       {/* <div className="about-background-image-container">
@@ -15,16 +15,16 @@ const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading"></p>
         <h1 className="primary-heading">
-         Electrical Engineering
+         Computer Science Engineering
         </h1>
         <p className="primary-text">
-        Electrical engineering is a field of engineering that deals with the design, development, and maintenance of electrical systems and their components, including power generation and distribution, electric motors, and electronic devices.
+        Computer Science Engineering is a branch of engineering that deals with the design, development, and maintenance of computer software and hardware systems.
         </p>
         <p className="primary-text">
-        <span className="Tag"> So, let's Power the world !</span>
+        <span className="Tag"> So, let's Code the world !</span>
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">View</button>
+          <a href = "/EE" className="secondary-button">View</a>
           
         </div>
       </div>
@@ -32,4 +32,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutCSE;
