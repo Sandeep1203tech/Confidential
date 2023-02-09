@@ -21,7 +21,7 @@ const About = () => {
         Electrical engineering is a field of engineering that deals with the design, development, and maintenance of electrical systems and their components, including power generation and distribution, electric motors, and electronic devices.
         </p>
         <p className="primary-text">
-        <span className="TagEEBlink"> So, let's Power the world !</span>
+        <span className="Tag"> So, let's Power the world !</span>
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">View</button>
