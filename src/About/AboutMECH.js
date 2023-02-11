@@ -1,6 +1,6 @@
 import React from "react";
 // import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/about-background-image.png";
+import AboutBackgroundImage from "../Assets/MECH.png";
 // import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const AboutMECH = () => {
@@ -9,7 +9,7 @@ const AboutMECH = () => {
       {/* <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
       </div> */}
-      <div className="about-section-image-container">
+      <div className="about-section-image-container MECHimg">
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
