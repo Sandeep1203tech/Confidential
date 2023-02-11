@@ -1,0 +1,22 @@
+.EEApp {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    /* border: 2PX solid red; */
+    margin-left: 197px;
+    margin-right: 10px;
+  }
+
+.lguFiu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    margin-left: -1px;
+}

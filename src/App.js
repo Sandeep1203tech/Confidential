@@ -1,5 +1,6 @@
 import SideNavBar from "./SideNavBar/SideNavBar";
 import Home from "./Home/Home";
+import Profile from "./Profile/Profile";
 import "./App.css";
 import AboutEE from "./About/AboutEE";
 import AboutCSE from "./About/AboutCSE";
@@ -18,9 +19,9 @@ function App() {
       path: "/",
       element: (
         <>
-          
+  
           <Home /> <AboutEE /> <AboutCSE/> <AboutECE/> <AboutCHE/> <AboutCIVIL/> <AboutBIOTECH/> <AboutMECH/>
-          
+   
         </>
       ),
       errorElement: <ErrorPage />,
@@ -28,6 +29,11 @@ function App() {
     {
       path: "/EE",
       element: <EE />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/Profile",
+      element: <Profile />,
       errorElement: <ErrorPage />,
     },
   ]);

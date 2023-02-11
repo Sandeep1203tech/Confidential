@@ -87,8 +87,8 @@ const SideNavBar = () => {
 							srcset=""
 						/>
 						<div className="nav-footer-info">
-							<p className="nav-footer-user-name">My Profile</p>
-							<p className="nav-footer-user-position">Sandeep</p>
+							{/* <a href="/Profile" className="nav-footer-user-name">My Profile</a> */}
+							<a href="/Profile" className="nav-footer-user-position">UserName</a>
 						</div>
 					</div>
 				)}
