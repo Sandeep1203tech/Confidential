@@ -4,6 +4,7 @@ import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import "./styles.css";
 
+
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2 },
@@ -17,7 +18,7 @@ const EE = () => {
           <h1 style={{ textAlign: "center", marginLeft: "178px"}}>SEMESTER 3</h1>
           <div className="EEApp">
             <Carousel breakPoints={breakPoints}>
-              <Item>Analog Electronics (ECC331)</Item>
+              <Item> <a href="/EE/ECC331">Analog Electronics (ECC331)</a></Item>
               <Item>Network Analysis and Synthesis (EEC301)</Item>
               <Item>Electrical and Electronics Measurements(EEC302)</Item>
               <Item>Mathematics-III(MAC331)</Item>
